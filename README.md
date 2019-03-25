@@ -1,5 +1,7 @@
 # Particle tracking in mouse eggs during exocytosis
 
+[![Build Status](https://travis-ci.com/daler/vogt-particle-tracking.svg?branch=master)](https://travis-ci.com/daler/vogt-particle-tracking)
+
 **Contact:** Ryan Dale, ryan.dale@nih.gov
 
 This Jupyter notebook can be used to reproduce the particle tracking analysis
