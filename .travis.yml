@@ -1,10 +1,10 @@
 language: python
 install:
-  - wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh;
+  - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
   - hash -r
-  - conda create -n particle-tracking --file requirements.txt -c conda-forge
+  - conda create -n particle-tracking -y --file requirements.txt -c conda-forge
 
 script:
-  - jupyter nbconvert --execute manuscript-figures.ipynb --to html --ExecutePreprocessor.timeout=800
+  - source activate particle-tracking && jupyter nbconvert --execute manuscript-figures.ipynb --to html --ExecutePreprocessor.timeout=800
