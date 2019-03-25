@@ -22,7 +22,7 @@ you already have `conda`. Otherwise, please install
 Once `conda` is installed, run the following from a terminal:
 
 ```bash
-conda env create -n particle-tracking --file full_environment.yaml
+conda create -n particle-tracking --file requirements.txt --channel conda-forge
 ```
 
 This will create an environment with all software required to run this

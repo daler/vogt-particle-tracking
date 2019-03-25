@@ -4,7 +4,7 @@ install:
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
   - hash -r
-  - conda create -n particle-tracking --file requirements.txt
+  - conda create -n particle-tracking --file requirements.txt -c conda-forge
 
 script:
   - jupyter nbconvert --execute manuscript-figures.ipynb --to html --ExecutePreprocessor.timeout=800
