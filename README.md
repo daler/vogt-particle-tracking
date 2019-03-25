@@ -2,7 +2,6 @@
 
 **Contact:** Ryan Dale, ryan.dale@nih.gov
 
-
 This Jupyter notebook can be used to reproduce the particle tracking analysis
 in Vogt et al (2019) "Anchoring mouse cortical granules in the egg cortex ensures
 timely trafficking to the plasma membrane for post-fertilization exocytosis",
