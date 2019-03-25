@@ -1,9 +1,14 @@
-Contact: Ryan Dale, ryan.dale@nih.gov
+# Particle tracking in mouse eggs during exocytosis
+
+**Contact:** Ryan Dale, ryan.dale@nih.gov
+
 
 This Jupyter notebook can be used to reproduce the particle tracking analysis
 in Vogt et al (2019) "Anchoring mouse cortical granules in the egg cortex ensures
 timely trafficking to the plasma membrane for post-fertilization exocytosis",
 *Nature Communications*.
+
+## Setup
 
 For more information on using Jupyter notebooks, see the
 [documentation](https://jupyter-notebook.readthedocs.io/en/stable/).
@@ -38,3 +43,14 @@ installed at the time the figures were generated, and serves as a more archival
 record of the packages. It is likely that this notebook will run on MacOS and
 Windows, but this is untested. Success relies on availability of packages on
 those platforms.*
+
+## Further information
+
+- Data are included in the `data` directory. The data are about 4.2MB
+  compressed, making it reasonable to keep alongside the code in a git
+  repository.
+- The code in the `particle_tracking_lib` module is well-documented and can be
+  used as a library for other experiments where input data is of the same
+  format as that in the `data` directory.
+- The analysis is tested on TravisCI, which builds an environment from scratch
+  and re-runs the full analysis to ensure the environment can be replicated.
