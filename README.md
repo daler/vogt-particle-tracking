@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.com/daler/vogt-particle-tracking.svg?branch=master)](https://travis-ci.com/daler/vogt-particle-tracking)
 
+
+[![DOI](https://zenodo.org/badge/177624036.svg)](https://zenodo.org/badge/latestdoi/177624036)
+
+
+
 **Contact:** Ryan Dale, ryan.dale@nih.gov
 
 This Jupyter notebook can be used to reproduce the particle tracking analysis
